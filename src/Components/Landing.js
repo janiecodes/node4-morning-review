@@ -16,6 +16,7 @@ class Landing extends Component{
                 <h1>Welcome</h1>
                 <button onClick={() => this.props.history.push('/authentication/login')}>Login</button>
                 <button onClick={() => this.props.history.push('/authentication/register')}>Register</button>
+                {/* history.push changes the route path */}
             </div>
         )
     }
